@@ -496,7 +496,7 @@ header {
   margin-top: 60px; }
 
 .hero__ratings__store:first-of-type {
-  margin-right: 60px; }
+  margin: 0px; }
 
 .hero__ratings__star {
   margin-bottom: 10px; }
@@ -587,7 +587,7 @@ header {
     margin-top: 40px; }
 
   .hero__ratings__store:first-of-type {
-    margin-right: 30px; }
+    margin: 0px; }
 
   .hero__ratings__star i {
     font-size: 16px; } }
@@ -1308,7 +1308,7 @@ header {
     .pricing__item--buy {
       box-sizing: border-box;
       background: linear-gradient(to right, #53e488, #3ce187, #3cb278);
-      padding: 7px; }
+      padding: 4px; }
       .pricing__item--buy .button {
         background-color: #006bff;
         color: #ffffff; }
@@ -1320,7 +1320,7 @@ header {
         color: #ffffff; }
       .pricing__item--buy .standard__inner {
         background-color: #ffffff;
-        padding: 33px;
+        padding: 12px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
@@ -1329,7 +1329,7 @@ header {
         .pricing__item--sell {
           box-sizing: border-box;
           background: linear-gradient(to right, #ff7272, #e85a5a, #cb5353);
-          padding: 7px; }
+          padding: 4px; }
           .pricing__item--sell .button {
             background-color: #006bff;
             color: #ffffff; }
@@ -1341,7 +1341,7 @@ header {
             color: #ffffff; }
           .pricing__item--sell .standard__inner {
             background-color: #ffffff;
-            padding: 33px;
+            padding: 12px;
             -webkit-border-radius: 20px;
             -moz-border-radius: 20px;
             -ms-border-radius: 20px;
@@ -1371,7 +1371,7 @@ header {
     padding: 80px 0px; }
 
   .pricing__item {
-    padding: 30px 12px; }
+    padding: 4px; }
     .pricing__item img {
       width: 70px;
       height: 70px; }
