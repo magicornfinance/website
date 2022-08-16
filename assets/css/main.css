@@ -1239,7 +1239,7 @@ header {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     border-radius: 20px;
-    margin-bottom: 20px; }
+    margin: 0px; }
   .pricing__item h6 {
     margin-bottom: 22px; }
   .pricing__item p {
@@ -1329,7 +1329,7 @@ header {
         @include border-radius(20px);
       }
     }
-    
+
     .pricing__item--buy {
       box-sizing: border-box;
       background: linear-gradient(to right, #53e488, #3ce187, #3cb278);
