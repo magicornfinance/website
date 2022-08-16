@@ -1305,6 +1305,31 @@ header {
     -ms-border-radius: 20px;
     border-radius: 20px; }
 
+    .pricing__item--home {
+      box-sizing: border-box;
+      padding: 4px;
+      margin: 4px:
+      .button {
+        background-color: $tertiary-color;
+        color: $primary-color;
+        &:hover {
+          background-color: $primary-color;
+          color: $senary-color;
+        }
+      }
+      li {
+        i {
+          background-color: #00cf86;
+          color: $primary-color;
+        }
+      }
+      .standard__inner {
+        background-color: $primary-color;
+        padding: 4px;
+        @include border-radius(20px);
+      }
+    }
+    
     .pricing__item--buy {
       box-sizing: border-box;
       background: linear-gradient(to right, #53e488, #3ce187, #3cb278);

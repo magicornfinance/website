@@ -827,11 +827,10 @@
   }
 }
 
-.pricing__item--buy {
+.pricing__item--home {
   box-sizing: border-box;
-  background: linear-gradient(to right, #53e488, #3ce187, #3cb278);
   padding: 4px;
-  margin: 4px;
+  margin: 4px:
   .button {
     background-color: $tertiary-color;
     color: $primary-color;
@@ -853,11 +852,10 @@
   }
 }
 
-.pricing__item--sell {
+.pricing__item--buy {
   box-sizing: border-box;
-  background: linear-gradient(to right, #ff7272, #e85a5a, #cb5353);
-  padding: 4px;
-  margin: 4px;
+  background: linear-gradient(to right, #53e488, #3ce187, #3cb278);
+  padding: 7px;
   .button {
     background-color: $tertiary-color;
     color: $primary-color;
@@ -874,7 +872,32 @@
   }
   .standard__inner {
     background-color: $primary-color;
-    padding: 4px;
+    padding: 33px;
+    @include border-radius(20px);
+  }
+}
+
+.pricing__item--sell {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #ff7272, #e85a5a, #cb5353);
+  padding: 7px;
+  .button {
+    background-color: $tertiary-color;
+    color: $primary-color;
+    &:hover {
+      background-color: $primary-color;
+      color: $senary-color;
+    }
+  }
+  li {
+    i {
+      background-color: #00cf86;
+      color: $primary-color;
+    }
+  }
+  .standard__inner {
+    background-color: $primary-color;
+    padding: 33px;
     @include border-radius(20px);
   }
 }
