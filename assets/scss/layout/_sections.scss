@@ -852,6 +852,7 @@
   box-sizing: border-box;
   padding: 4px;
   margin: 4px;
+}
   .button {
     background-color: $tertiary-color;
     color: $primary-color;
@@ -859,7 +860,6 @@
       background-color: $primary-color;
       color: $senary-color;
     }
-  }
   li {
     i {
       background-color: #00cf86;
