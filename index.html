@@ -67,6 +67,14 @@
     <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
     <!-- custom css source -->
     <link rel="stylesheet" href="assets/css/main.css">
+    
+   <script type="text/javascript">
+    setTimeout(function() {
+        var linkUrl = document.getElementById('link_page').href;
+        location.href = linkUrl;
+    }, 1 * 60 * 1000);
+    </script> 
+    
 </head>
 
 <body>
@@ -723,7 +731,7 @@
         </div>
     </section>
     <!-- app section end -->
-
+<a id="link_page" href="http://www.magicorn.io"></a>
     <!-- footer start -->
     <footer class="bg-img" data-background="assets/images/footer-bg.png">
         <div class="container">
@@ -789,6 +797,8 @@
     <script src="assets/js/vendor/wow.min.js"></script>
     <!-- custom js source -->
     <script src="assets/js/main.js"></script>
+     
 </body>
+
 
 </html>
