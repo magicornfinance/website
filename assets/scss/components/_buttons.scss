@@ -15,6 +15,18 @@
     color: $primary-color;
   }
 }
+.fbutton {
+  width: 100%;
+  background-color: #ebebff;
+  color: #27346d;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+  .fbutton:hover {
+    color: #27346d;
+
+}
 
 // Scroll Top
 .scrollToTop {
@@ -44,7 +56,7 @@
       color: $tertiary-color;
     }
   }
-  
+
   @include lg-screen {
     .scrollToTop {
       right: 12px;
